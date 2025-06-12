@@ -404,7 +404,7 @@ body {
     gap: 0.5rem;
   }
 }
-/* Circular Profile Image */
+
 .profile-circle {
   width: 300px;
   height: 300px;
@@ -414,16 +414,10 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-
-.profile-circle:hover {
-  transform: scale(1.05);
-}
-/* Glow effect */
 .profile-circle {
   filter: drop-shadow(0 0 10px rgba(108, 74, 182, 0.3));
 }
 
-/* Animated border */
 .profile-circle {
   animation: pulse-border 2s infinite;
 }
